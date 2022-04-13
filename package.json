@@ -1,0 +1,17 @@
+{
+  "name": "ozone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --watch --files *, !db/",
+    "json": "json-server --watch db/db.json",
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch --mode=development"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
