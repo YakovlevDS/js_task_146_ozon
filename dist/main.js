@@ -66,7 +66,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst getData = () => {\r\n    // const URL = \"http://localhost:3000/goods\";\r\n    const URL = `https://ozone-10720-default-rtdb.europe-west1.firebasedatabase.app/goods.json?`;\r\n\r\n    return fetch(URL).then((res) => {\r\n        return res.json();\r\n    });\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getData);\n\n//# sourceURL=webpack://ozone/./src/modules/getData.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst getData = () => {\r\n    const URL = \"http://localhost:3000/goods\";\r\n    // const URL = `https://ozone-10720-default-rtdb.europe-west1.firebasedatabase.app/goods.json`;\r\n\r\n    return fetch(URL).then((res) => {\r\n        return res.json();\r\n    });\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getData);\n\n//# sourceURL=webpack://ozone/./src/modules/getData.js?");
 
 /***/ }),
 
